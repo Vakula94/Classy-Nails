@@ -60,6 +60,9 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
+.next-element {
+  margin-top: 66px; 
+}
 .btn--small {
   padding: 8px 18px;
   font-size: 14px;
@@ -144,5 +147,3 @@ body {
 .nav a.active {
   color: #ffb400;
 }
-
-/*# sourceMappingURL=style.css.map */
