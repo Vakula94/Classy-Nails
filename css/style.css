@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #0d0d0d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+.nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav a:hover {
+  color: #ffb400;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.socials i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  background: #ffb400;
+  color: #000;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.btn--small {
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.hero {
+  min-height: 100vh;
+  background: url("../img/bg.jpg") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.hero__content {
+  text-align: center;
+}
+.hero__content h1 {
+  font-family: "Ooh Baby", cursive;
+  font-size: 72px;
+  margin: 20px 0;
+}
+.hero__content h2 {
+  font-family: "Ooh Baby", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.hero__content p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.hero__subtitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ffb400;
+}
+
+.services {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+  background: #1b1b1b;
+  padding: 15px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 180px;
+}
+.service i {
+  color: #ffb400;
+}
+.service .close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .hero__content h1 {
+    font-size: 46px;
+  }
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.nav a.active {
+  color: #ffb400;
+}
+
+/*# sourceMappingURL=style.css.map */
