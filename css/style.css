@@ -76,7 +76,7 @@ body {
   padding: 8px 32px; 
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 16px, bold;
+  font-size: 16px;
   background-color: #ff9d12;
   color: #000000;
   padding: 14px 36px;
@@ -133,9 +133,10 @@ body {
 .services {
   position: absolute;
   bottom: 40px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .service {
@@ -144,12 +145,8 @@ body {
   border-radius: 12px;
   display: flex;
   align-items: center;
-  gap: 30px;
-  width: 350px;
-  height: 80px;
-   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  color: #ffffff;
+  gap: 10px;
+  min-width: 180px;
 }
 .service i {
   color: #ff9d13;
