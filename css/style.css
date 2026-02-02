@@ -9,11 +9,6 @@ body {
   color: #fff;
   background-color: #0d0d0d;
 }
-.oooh-baby-regular {
-  font-family: "Oooh Baby", cursive;
-  font-weight: 300;
-  font-style: normal;
-}
 
 .container {
   max-width: 1200px;
@@ -38,20 +33,12 @@ body {
   gap: 30px;
 }
 .nav a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  opacity: 0.6;
-  color: #ffffff;
+  color: #ccc;
   text-decoration: none;
+  font-size: 14px;
 }
-
-.nav a.active {
-  opacity: 1;
-}
-
 .nav a:hover {
-  color: #ff9d13;
+  color: #ffb400;
 }
 
 .header__right {
@@ -64,26 +51,20 @@ body {
   margin-left: 10px;
   cursor: pointer;
 }
-.next-element {
-  margin-top: 66px; 
-}
 
 .btn {
-  display: inline-flex; 
-   align-items: center;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
-  width: auto;         
-  padding: 8px 32px; 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  background-color: #ff9d12;
-  color: #000000;
-  padding: 14px 36px;
-  border-radius: 20px;
-  text-transform: uppercase;
+  width: auto;
+  padding: 12px 32px;
+  background: #ffb400;
+  color: #000;
+  padding: 12px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
 }
-
 .btn--small {
   padding: 8px 18px;
   font-size: 14px;
@@ -100,18 +81,16 @@ body {
 
 .hero__content {
   text-align: center;
-  max-width: 900px;
-  padding: 100px 20px;
 }
 .hero__content h1 {
-  font-family: 'Oooh Baby', cursive;
+  font-family: "Ooh Baby", cursive;
   font-size: 72px;
   margin: 20px 0;
 }
 .hero__content h2 {
-  font-family: "Oooh Baby", cursive;
-  font-weight: 200;
-  font-size: 48px;
+  font-family: "Ooh Baby", cursive;
+  font-weight: 400;
+  font-size: 36px;
   margin-bottom: 30px;
 }
 .hero__content p {
@@ -121,19 +100,13 @@ body {
 }
 
 .hero__subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  color: #ff9d12;
-  display: block;
-  margin-bottom: 12px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ffb400;
 }
 
 .services {
-  position: absolute;
   bottom: 40px;
-  width: 100%;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -149,7 +122,7 @@ body {
   min-width: 180px;
 }
 .service i {
-  color: #ff9d13;
+  color: #ffb400;
 }
 .service .close {
   margin-left: auto;
@@ -172,5 +145,7 @@ body {
   }
 }
 .nav a.active {
-  color: #ff9d13;
+  color: #ffb400;
 }
+
+/*# sourceMappingURL=style.css.map */

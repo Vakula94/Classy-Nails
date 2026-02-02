@@ -60,9 +60,14 @@ body {
 }
 
 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 12px 32px;
   background: $accent;
   color: #000;
-  padding: 12px 28px;
+  padding: 12px 32px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 500;
