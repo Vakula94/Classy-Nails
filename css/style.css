@@ -55,7 +55,10 @@ body {
 }
 
 .btn {
-  padding: 12px 32px;
+  margin-top: 44px;
+  width: auto;
+  display: inline-flex;
+  align-items: center;
   background: #ffb400;
   color: #000;
   padding: 12px 32px;
