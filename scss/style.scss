@@ -53,7 +53,7 @@ body {
 .header__right {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
 }
 
 .socials i {
@@ -62,11 +62,11 @@ body {
 }
 
 .btn {
-    margin-top: 44px;
-    width: auto;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   background: $accent;
   color: #000;
   padding: 12px 32px;
@@ -79,6 +79,10 @@ body {
     padding: 8px 18px;
     font-size: 14px;
   }
+}
+
+.hero .btn {
+  margin-top: 44px;
 }
 
 .hero {
