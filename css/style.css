@@ -37,7 +37,7 @@ body {
 .nav a {
   color: #ccc;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
 }
 .nav a:hover {
   color: #ffb400;
@@ -226,8 +226,12 @@ body {
    About Page
 ========================= */
 .about {
-  padding: 120px 0;
+  padding-top: 166px;
+  padding-bottom: 120px;
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
+  background: url("../img/bg.jpg") center/cover no-repeat;
 }
 
 .about__title {
@@ -248,15 +252,16 @@ body {
 
 .about__gallery {
   margin-top: 64px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .about__img {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   border-radius: 22px;
   overflow: hidden;
 }
