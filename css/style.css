@@ -228,8 +228,6 @@ body {
 .about {
   padding-top: 166px;
   padding-bottom: 120px;
-  max-width: 1200px;
-  margin: 0 auto;
   text-align: center;
   background: url("../img/bg.jpg") center/cover no-repeat;
 }
