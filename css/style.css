@@ -119,6 +119,7 @@ body {
 
 .hero__subtitle {
   display: block;
+  align-self: flex-start;
   text-align: left;
   margin-bottom: 16px;
   font-family: "Montserrat", sans-serif;
