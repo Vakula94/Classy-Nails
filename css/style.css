@@ -16,6 +16,39 @@ body {
   padding: 0 15px;
 }
 
+.burger {
+  display: none;
+  width: 28px;
+  height: 20px;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.burger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.burger span:nth-child(1) {
+  top: 0;
+}
+
+.burger span:nth-child(2) {
+  top: 9px;
+}
+
+.burger span:nth-child(3) {
+  bottom: 0;
+}
+
 .site_logo {
   width: 80px;
   height: auto;
@@ -121,7 +154,7 @@ body {
   display: block;
   align-self: flex-start;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 140px;
   margin-bottom: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -292,6 +325,26 @@ body {
   .nav {
     display: none;
   }
+}
+@media (max-width: 768px) and (max-width: 770px) {
+  .nav {
+    display: none;
+  }
+  .header__right {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-left: auto;
+  }
+}
+@media (max-width: 768px) and (max-width: 380px) {
+  .burger {
+    width: 24px;
+    height: 18px;
+  }
+}
+@media (max-width: 768px) {
   .hero__content h1 {
     font-size: 46px;
   }
