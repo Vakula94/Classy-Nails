@@ -100,11 +100,11 @@ body {
 .hero__content h2 {
   font-family: "Oooh Baby", cursive;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 48px;
   margin-bottom: 30px;
 }
 .hero__content p {
-  font-size: 14px;
+  font-size: 18px;
   color: #ccc;
   margin-bottom: 10px;
 }
@@ -114,7 +114,7 @@ body {
   margin-bottom: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   color: #ff9d12;
 }
 
@@ -226,8 +226,8 @@ body {
    About Page
 ========================= */
 .about {
-  padding-top: 166px;
-  padding-bottom: 120px;
+  min-height: 100vh;
+  padding: 180px 0 120px;
   text-align: center;
   background: url("../img/bg.jpg") center/cover no-repeat;
 }
