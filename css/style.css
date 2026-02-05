@@ -163,6 +163,7 @@ body {
 }
 
 .services {
+  position: absolute;
   bottom: 40px;
   width: 100%;
   display: flex;
