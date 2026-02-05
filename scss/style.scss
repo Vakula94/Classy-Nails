@@ -20,6 +20,12 @@ body {
   padding: 0 15px;
 }
 
+.site_logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
 .header {
   position: absolute;
   top: 0;
