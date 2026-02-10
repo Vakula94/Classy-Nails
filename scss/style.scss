@@ -143,6 +143,17 @@ body {
   position: relative;
 }
 
+.hero__text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 45px;
+  color: #ccc;
+
+  span {
+    display: block;
+  }
+}
+
 .hero__content {
     display: flex;
     flex-direction: column;
@@ -160,16 +171,16 @@ body {
 
   span {
     display: block;
-    font-size: 48px; 
-    font-weight: 400;
+    /* font-size: 48px; 
+    font-weight: 400; */
   }
 
-  /* h2 {
+   h2 {
     font-family: 'Oooh Baby', cursive;
     font-weight: 400;
     font-size: 48px;
     margin-bottom: 30px;
-  } */
+  } 
 
   p {
     font-family: 'Montserrat', sans-serif;
