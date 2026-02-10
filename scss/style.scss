@@ -22,13 +22,16 @@ body {
 
 .burger {
   display: none;
-  width: 28px;
-  height: 20px;
-  position: relative;
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
+
+  img {
+    width: 30px;
+    height: auto;
+    display: block;
+  }
 }
 
 .burger span {
@@ -112,7 +115,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
+  margin-top: 0;
   background: $accent;
   color: #000;
   padding: 12px 32px;
@@ -356,6 +359,18 @@ body {
   @media (max-width: 770px) {
   .nav {
     display: none; 
+     flex-direction: column;
+    gap: 24px;
+    background: #fff;
+    padding: 24px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .nav.active {
+    display: flex;
   }
 
    .socials img {
@@ -364,7 +379,14 @@ body {
   }
 
   .header__right {
-    display: none; 
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+   .header__right .btn,
+  .header__right .socials {
+    display: none;
   }
 
   .burger {
